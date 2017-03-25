@@ -1,0 +1,30 @@
+{
+  "name": "mimicry-css",
+  "version": "1.0.0",
+  "description": "welcome!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozoneboy11/MimicryCSS.git"
+  },
+  "author": "ozoneboy11",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozoneboy11/MimicryCSS/issues"
+  },
+  "homepage": "https://github.com/ozoneboy11/MimicryCSS#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.6.0",
+    "stylus": "^0.54.5"
+  }
+}

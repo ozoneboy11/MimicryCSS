@@ -1,0 +1,25 @@
+doctype html
+html(lang='ja')
+  head
+    meta(charset='UTF-8')
+    link(href='style.css', rel='stylesheet', type='text/css')
+    title GitHub
+  body
+    h1 GitHub
+    .boxed-group
+      .header Button
+      .inner
+        dl
+          dt
+            label(for='rename_field') Repository name
+          dd
+            input.form-control(
+              autocomplete='off'
+              data-original-name='MimicryCSS'
+              id='rename_field'
+              name='new_name'
+              type='text'
+              placeholder='Example'
+            )
+            button.btn Rename
+            button.btn.btn-danger Remove

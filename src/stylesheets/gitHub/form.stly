@@ -1,0 +1,82 @@
+body
+  font-family -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+  font-size 14px
+  line-height 1.5
+  color #24292e
+
+dd
+  margin-left 0
+
+input, textarea, select, button
+  text-rendering auto
+  color initial
+  letter-spacing normal
+  word-spacing normal
+  text-transform none
+  text-indent 0px
+  text-shadow none
+  display inline-block
+  text-align start
+  margin 0
+  font 13.3333px Arial
+
+input
+  appearance textfield
+  background-color white
+  rtl-ordering logical
+  user-select text
+  cursor auto
+  padding 1px
+  border-width 2px
+  border-style inset
+  border-color initial
+  border-image initial
+
+.boxed-group
+  position relative
+  margin-bottom 30px
+  border-radius 3px
+
+  .header
+    display block
+    padding 9px 10px 10px
+    margin 0
+    font-weight 600
+    font-size 14px
+    line-height 17px
+    background-color #f6f8fa
+    border 1px solid rgba(27,31,35,0.15)
+    border-bottom 0
+    border-radius 3px 3px 0 0
+
+  .inner
+    padding 10px
+    color #586069
+    background #fff
+    border 1px solid #d1d5da
+    border-bottom-right-radius 3px
+    border-bottom-left-radius 3px
+
+.form-control, .form-select
+  padding 6px 8px
+  font-size 14px
+  line-height 20px
+  color #24292e
+  vertical-align middle
+  background-color #fff
+  background-repeat no-repeat
+  background-position right 8px center
+  border 1px solid #d1d5da
+  border-radius 3px
+  outline none
+  box-shadow inset 0 1px 2px rgba(27,31,35,0.075)
+
+.form-control
+  max-width: 100%
+  margin-right: 5px
+  background-color: #fafbfc
+
+.form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus
+  border-color #2188ff
+  outline none
+  box-shadow inset 0 1px 2px rgba(27,31,35,0.075), 0 0 0 0.2em rgba(3,102,214,0.3)
